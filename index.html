@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,42 @@
 </head>
 <body>
     
+    
+        <h1>Jogo da Velha</h1>
+    
+
+    <div>
+        <div class="quadrado" id="q1" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="q2" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="q3" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+    <div>
+        <div class="quadrado" id="q4" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="q5" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="q6" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+    <div>
+        <div class="quadrado" id="q7" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="q8" onclick="escolherQuadrado(this.id)">-</div>
+        <div class="quadrado" id="q9" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+    <div class="jogador">
+        <label>Jogador.:</label>
+        <label id="jogadorSelecionado"></label>
+    </div>
+    <div class="vencedor">
+        <label>Vencedor.:</label>
+        <label id="vencedorSelecionado"></label>
+    </div>
+    <div>
+        <button onclick="reiniciar()">
+            Reiniciar
+        </button>
+    </div>
+
+
+
+
 
     <script src="js/script.js"></script>
 </body>
